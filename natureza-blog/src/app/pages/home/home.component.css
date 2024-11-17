@@ -1,0 +1,120 @@
+.home__container{
+  /* Ajuste do conteúdo da página para evitar sobreposição */
+  margin-top: 7%; /* igual à altura da .menu-bar */
+  margin-bottom: 6%; /* igual à altura da .footer */
+  /* border: 2px solid red; */
+}
+
+.home__card-destaque{
+  display: flex;
+  flex-direction: column;
+
+  height: 300px;
+  border: 1px solid black;
+}
+
+.home__cards-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.home__cards-content-opt{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+
+  padding: 10px 10px;
+  /* border: 1px solid black; */
+  margin-top: 0;
+  width: 18%;
+  height: 400px;
+}
+
+.home__cards-content-opt > img{
+  border-radius: 15px 15px 0px 0px;
+  height: 50%;
+  width: 100%;
+  align-content: center;
+}
+
+.home__cards-content-opt > span{
+  display: flex;
+  flex-direction: row;
+
+  padding: 5px 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-size: 10px;
+  background-color: rgb(250, 175, 114);
+  color: gray;
+
+}
+.home__cards-content-opt > span > a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.home__cards-content-opt > h3{
+  margin-bottom: 30px;
+  margin-left: 15px;
+
+}
+
+.home__cards-content-main{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 10px 10px;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+
+  width: 78%;
+  height: 800px;
+}
+
+.home__cards-content-main-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+
+  width: 50%;
+}
+
+.home__cards-content-main-right > span{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: 1px solid white;
+  font-size: 10px;
+  color: gray;
+}
+
+.home__cards-content-main-right > span > a{
+  text-decoration: none;
+  color: inherit;
+}
+.home__cards-content-main-right > h3{
+  display: flex;
+  color: white;
+  margin-top: 10px;
+  font-size: larger;
+
+}
+.home__cards-content-main-right > p{
+  display: flex;
+  margin-top: 20px;
+  color: white;
+  font-size: small;
+}
