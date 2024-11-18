@@ -1,14 +1,18 @@
 <div class="menu__container">
   <div class="menu__img">
-    <a href="#">
+    <a [routerLink]="['']">
     <img src="https://wallpaperaccess.com/full/3787612.jpg" alt="logo">
     </a>
   </div>
   <div class="menu__opt">
+    <ul *ngFor="let option of options" >
+      <a [routerLink]="['']"><li>{{option}}</li></a>
+    </ul>
+  </div>
+  <div class="menu__contacts">
     <ul>
-      <li><a href="#">Where To Go</a></li>
-      <li><a href="#">Where To Eat</a></li>
-      <li><a href="#">Places To Stay</a></li>
+      <li><a href="https://github.com/AndreFeh" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/andre-felipe-santos07" target="_blank">LinkedIn</a></li>
     </ul>
   </div>
 </div>

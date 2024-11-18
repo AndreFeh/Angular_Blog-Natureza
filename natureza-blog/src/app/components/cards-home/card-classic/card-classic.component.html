@@ -1,0 +1,7 @@
+<div class="classic__container">
+  <img src="{{imgCard}}">
+  <div class="left-span">
+    <span *ngFor="let opt of type"><a [routerLink]="['']">{{opt}}</a></span>
+  </div>
+  <h3>{{title}}</h3>
+</div>
