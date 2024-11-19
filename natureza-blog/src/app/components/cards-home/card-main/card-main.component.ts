@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardMainComponent implements OnInit {
   @Input()
-  imgBack:string = "https://th.bing.com/th/id/R.645010afaaca5129ee94eff4c62b7479?rik=73rW49RnKytkKQ&pid=ImgRaw&r=0";
+  imgBack:string = "assets/img/404wallpaper-not-found.jpg";
   @Input()
   type:string[]=["IMPLEMENTANDO", "IMPLEMENTANDO"];
   @Input()

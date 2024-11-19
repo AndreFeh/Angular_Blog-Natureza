@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardClassicComponent implements OnInit {
   @Input()
-  imgCard:string = "https://teiasolutions.com.br/wp-content/uploads/2021/12/INOVACAO-DESENVOLVIMENTO-1.png";
+  imgCard:string = "assets/img/404wallpaper-not-found.jpg";
   @Input()
   type:string[]=["IMPLEMENTANDO", "IMPLEMENTANDO", "IMPLEMENTANDO"];
   @Input()

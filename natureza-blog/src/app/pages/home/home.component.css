@@ -19,6 +19,9 @@
 .home__cards > h2 {
   margin-left:10px;
   font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .home__cards-content{

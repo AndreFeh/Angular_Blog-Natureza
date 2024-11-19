@@ -7,7 +7,33 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardDestaqueComponent implements OnInit{
   @Input()
-  imgCard:string = "https://uvn-brightspot.s3.amazonaws.com/assets/vixpt/p/praia-areia-negra-islandia-0920-1400x1300.jpg";
+  imgCard:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard1:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard2:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard3:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard4:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard5:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard6:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard7:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard8:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard9:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard10:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard11:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard12:string = "assets/img/404wallpaper-not-found.jpg";
+  @Input()
+  imgCard13:string = "assets/img/404wallpaper-not-found.jpg";
   @Input()
   txtInput:string = "IMPLEMENTANDO";
   @Input()
