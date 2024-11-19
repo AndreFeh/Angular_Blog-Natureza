@@ -1,5 +1,5 @@
 .menu__container{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: white;
   position: fixed;
   z-index: 1000; /* Para garantir que fique acima do conteúdo */
@@ -24,7 +24,7 @@
   height: 50px;
   width:120px ;
   border-radius: 15%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 5px;
 }
 

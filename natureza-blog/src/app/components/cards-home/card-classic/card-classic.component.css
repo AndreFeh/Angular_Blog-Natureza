@@ -12,6 +12,8 @@
 
   height: 300px;
   overflow: hidden; /*Evita sobreposição de components*/
+  border-radius: 15px;
+  background-color: antiquewhite;
 }
 
 .classic__container > img{
@@ -27,8 +29,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: left;
-  align-items: flex-start;
+  justify-content: center;
   font-size: 5px;
 }
 
@@ -62,6 +63,7 @@
 }
 
 .classic__container > h3{
+  text-align: justify;
   margin-bottom: 30px;
-  margin-left: 15px;
+  margin: 15px;
 }

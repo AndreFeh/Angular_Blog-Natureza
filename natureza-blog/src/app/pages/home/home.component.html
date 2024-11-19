@@ -1,17 +1,32 @@
 <div class="home__container">
-  <h1>TESTE</h1>
   <div class="home__card-destaque">
-    <app-card-destaque/>
+    <app-card-destaque
+      imgCard="https://guiaviajarmelhor.com.br/wp-content/uploads/2015/06/melhores-praias-algarve.jpg"
+      txtInput="Search for the hotel, restaurant, destination, here!"
+      [types]="['Paris','Tokyo', 'Brazil', 'México', 'Los Angeles']"
+    />
   </div>
   <div class="home__cards">
     <h2>Editor's Choice</h2>
       <div class="home__cards-content">
         <div class="home__card-left">
-          <app-card-classic />
-          <app-card-classic />
+          <app-card-classic
+            imgCard="https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2021/04/552cf17b-sobrecoxa-a-milanesa-_-tm-tomates-_-paula-belleza-_-baixa-4.jpg"
+            [type]="['Where To Eat']"
+            title="Manual Culinario: Tudo o que você precisa saber antes de fazer uma bela Coxa Sobre Coxa cozida!"
+          />
+          <app-card-classic
+            imgCard="https://th.bing.com/th/id/R.6a40e94b978dbbf2409aec3586eda95c?rik=4MNfrPmaJYf%2fHA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-LlJRCmrXMB4%2fVVO4krykb_I%2fAAAAAAAAC_0%2fNna9dJwRfeQ%2fs1600%2fsala-luxo.jpg&ehk=mU8cPCFV9hz%2f8JgYNKtfwHXyQRSlEswGtq%2f7EYz19B4%3d&risl=&pid=ImgRaw&r=0"
+            [type]="['Places To Stay']"
+          />
         </div>
         <div class="home__card-right">
-          <app-card-main/>
+          <app-card-main
+          imgBack="https://th.bing.com/th/id/R.645010afaaca5129ee94eff4c62b7479?rik=73rW49RnKytkKQ&pid=ImgRaw&r=0"
+          [type]="['What To Do']"
+          title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam exercitationem suscipit cum."
+          descrpt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nihil nemo aliquam vero fugiat error sunt dolorem architecto nam nostrum."
+        />
         </div>
       </div>
   </div>

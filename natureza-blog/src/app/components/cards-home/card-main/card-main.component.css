@@ -45,7 +45,7 @@
   color: inherit;
 }
 
-.right-span > span > a:hover{
+.right-span > span:hover{
   color: aqua;
   font-weight: bold;
 }

@@ -1,35 +1,38 @@
 <div class="destaque__container">
   <div class="destaque__img-left">
     <div class="img-lft-top">
-      <img src="https://guiaviajarmelhor.com.br/wp-content/uploads/2015/06/melhores-praias-algarve.jpg" alt="">
-      <img src="https://mir-znaniy.com/wp-content/uploads/2023/04/pljazhi-vladivostoka09.jpg" alt="">
-      <img src="https://i.pinimg.com/originals/4c/8c/c1/4c8cc1830b96c509064989e9e5a75162.jpg" alt="">
+      <img src="{{imgCard}}" style="height: 120px;width: 120px;">
+      <img src="{{imgCard}}" alt=""style="height: 80px;width: 80px;">
+      <img src="{{imgCard}}" alt=""style="height: 50px;width: 50px;">
     </div>
     <div class="img-lft-bottom">
-      <img src="https://uvn-brightspot.s3.amazonaws.com/assets/vixpt/p/praia-areia-negra-islandia-0920-1400x1300.jpg" alt="">
-      <img src="https://th.bing.com/th/id/R.c84859e7ef4c32d8d2326db7fcdf2b50?rik=efcvmWm81Q4W0g&riu=http%3a%2f%2f3em3.com%2fwp-content%2fuploads%2f2018%2f12%2f3em3_lencoismaranhenses08.jpg&ehk=VXV3KkElJuQPff1eFZZavVTU397xlrlS4mmwDF5FYkc%3d&risl=&pid=ImgRaw&r=0" alt="">
-      <img src="https://th.bing.com/th/id/OIP.75rec7qx6BhKyhjz3yBItgHaD4?rs=1&pid=ImgDetMain" alt="">
-      <img src="https://www.fodors.com/wp-content/uploads/2019/05/06_20BestBeachesFlorida__BahiaHondaStatePark_shutterstock_740407930.jpg" alt="">
+      <img src="{{imgCard}}" alt=""style="height: 120px;width: 120px;">
+      <img src="{{imgCard}}" alt=""style="height: 80px;width: 80px;">
+      <img src="{{imgCard}}" alt=""style="height: 65px;width: 65px;">
+      <img src="{{imgCard}}" alt=""style="height: 50px;width: 50px;">
     </div>
   </div>
   <div class="destaque__title">
     <h1>WHERE NEXT?</h1>
-    <input type="search" id="search" placeholder="Search for the hotel, restaurant, destination, here!">
-    <div class="destaque-span-tps">
-      <span>Paris</span>
+    <div class="destaque__search">
+      <img src="assets/img/loupe.png" alt="loupe search">
+      <input type="search" id="search" placeholder="{{txtInput}}">
+    </div>
+    <div class="destaque__span-tps">
+      <span *ngFor="let opt of types"><a [routerLink]="['']">{{opt}}</a></span>
     </div>
   </div>
   <div class="destaque__img-right">
     <div class="img-rgt-top">
-      <img src="https://guiaviajarmelhor.com.br/wp-content/uploads/2015/06/melhores-praias-algarve.jpg" alt="">
-      <img src="https://mir-znaniy.com/wp-content/uploads/2023/04/pljazhi-vladivostoka09.jpg" alt="">
-      <img src="https://i.pinimg.com/originals/4c/8c/c1/4c8cc1830b96c509064989e9e5a75162.jpg" alt="">
-      <img src="https://uvn-brightspot.s3.amazonaws.com/assets/vixpt/p/praia-areia-negra-islandia-0920-1400x1300.jpg" alt="">
+      <img src="{{imgCard}}" alt=""style="height: 50px;width: 50px;">
+      <img src="{{imgCard}}" alt=""style="height: 65px;width: 65px;">
+      <img src="{{imgCard}}" alt=""style="height: 80px;width: 80px;">
+      <img src="{{imgCard}}" style="height: 120px;width: 120px;">
     </div>
     <div class="img-rgt-bottom">
-      <img src="https://th.bing.com/th/id/R.c84859e7ef4c32d8d2326db7fcdf2b50?rik=efcvmWm81Q4W0g&riu=http%3a%2f%2f3em3.com%2fwp-content%2fuploads%2f2018%2f12%2f3em3_lencoismaranhenses08.jpg&ehk=VXV3KkElJuQPff1eFZZavVTU397xlrlS4mmwDF5FYkc%3d&risl=&pid=ImgRaw&r=0" alt="">
-      <img src="https://th.bing.com/th/id/OIP.75rec7qx6BhKyhjz3yBItgHaD4?rs=1&pid=ImgDetMain" alt="">
-      <img src="https://www.fodors.com/wp-content/uploads/2019/05/06_20BestBeachesFlorida__BahiaHondaStatePark_shutterstock_740407930.jpg" alt="">
+      <img src="{{imgCard}}" alt=""style="height: 50px;width: 50px;">
+      <img src="{{imgCard}}" alt=""style="height: 80px;width: 80px;">
+      <img src="{{imgCard}}" alt=""style="height: 120px;width: 120px;">
     </div>
   </div>
 </div>

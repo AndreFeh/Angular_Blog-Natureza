@@ -1,9 +1,8 @@
 .home__container{
   background-color: rgb(233, 233, 233);
-  z-index: 1;
-  /* Ajuste do conteúdo da página para evitar sobreposição */
-  border: 1px solid green;
+  z-index: 1; /* Ajuste do conteúdo da página para evitar sobreposição */
   padding-top: 6%;
+  padding-bottom: 6%;
 
 }
 
